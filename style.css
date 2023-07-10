@@ -11,10 +11,10 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    --purple-1:  #ff06f4;
-    --violet-1: #4400ff;
+    --p:  #ff06f4;
+    --v: #4400ff;
     --bg-color:  #c5cdde;
-    --second-bg-color: linear-gradient(90deg, var(--violet-1), var(--purple-1));
+    --second-bg-color: linear-gradient(80deg, var(--v), var(--p));
     
     --text-color:#101010;
     --main-color:rgb(255, 136, 0);
