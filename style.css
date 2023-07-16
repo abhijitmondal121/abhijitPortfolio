@@ -154,7 +154,7 @@ section{
 }
 
 .home-img img{
-    width: 35vw;
+    width: 28vw;
     animation: floatImage 4s ease-in-out infinite;
 }
 @keyframes floatImage {
@@ -241,14 +241,17 @@ span{
 }
 
 .about-img img{
-    width: 35vw;
+    width: 30vw;
+    /* height: 85vh; */
 }
 
 .heading{
     text-align: center;
     font-size: 4.5rem;
 }
-
+.about-content{
+    margin-left: 80px;
+}
 .about-content h2{
     text-align: left;
     line-height: 1.2;
@@ -810,8 +813,8 @@ font-family: cursive;
         font-size: 5rem;
     }
     .home-img img{
-        width: 70vw;
-        margin-top: 4rem;
+        width: 75vw;
+        margin-top: 2rem;
     }
 
     .about{
@@ -819,8 +822,8 @@ font-family: cursive;
     }
 
     .about img{
-        width: 70vw;
-        margin-top: 4rem;
+        width: 75vw;
+        margin-top: 2rem;
     }
 
     .services h2{
@@ -840,7 +843,9 @@ font-family: cursive;
     html{
         font-size: 50%;
     }
-
+    .about-content{
+        margin-left: 0px;
+    }
     .contact form .input-box input{
         width: 100%;
     }
@@ -849,10 +854,13 @@ font-family: cursive;
 
 @media (max-width:365px){
 .home-img img{
-    width: 90vw;
+    width: 70vw;
+}
+.about-content{
+    margin-left: 0px;
 }
 .about-img img{
-    width: 90vw;
+    width: 70vw;
 }
 .footer p{
     font-size: 11.5px;
